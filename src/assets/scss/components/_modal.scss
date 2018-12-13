@@ -1,0 +1,169 @@
+.close {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	background: url('../img/mm-close.png') center no-repeat;
+	background-size: cover;
+	vertical-align: text-bottom;
+}
+
+
+.modal {
+	display: block;
+	margin-bottom: 40px;
+
+	&__title {
+		font-size: 26px;
+		display: inline-block;
+		margin: 20px 0;
+		span {
+			margin-right: 15px;
+		}
+	}
+
+	&__content {
+		margin: 50px 0;
+	}
+
+	&__submit {
+		display: block;
+		margin-top: 40px;
+	}
+
+}
+
+
+.modal.tutor__details {
+	padding-top: 40px;
+	padding-bottom: 200px;
+
+	.close {
+		position: fixed;
+		top: 15px;
+		left: 15px;
+		z-index: 999;
+	}
+
+	.tutor__details__attr {
+		margin: 20px 0;
+	}
+
+	.tutor__details__attrlabel {
+		color: #9F0014;
+		display: inline-block;
+	}
+
+	.tutor__details__attricon {
+		display: inline-block;
+		width: 36px;
+		height: 36px;
+		
+		background-size: 24px;
+		vertical-align: middle;
+	}
+
+
+
+	.t-1 {
+		background: url('../img/mm-t-1.png') center no-repeat;
+		background-size: 24px;
+	}
+
+	.t-2 {
+		background: url('../img/mm-t-2.png') center no-repeat;
+		background-size: 24px;
+	}
+
+	.t-3 {
+		background: url('../img/mm-t-3.png') center no-repeat;
+		background-size: 24px;
+	}
+
+	.t-4 {
+		background: url('../img/mm-t-4.png') center no-repeat;
+		background-size: 24px;
+	}
+
+	.t-5 {
+		background: url('../img/mm-t-5.png') center no-repeat;
+		background-size: 24px;
+	}
+
+	.t-6 {
+		background: url('../img/mm-t-6.png') center no-repeat;
+		background-size: 24px;
+	}
+
+	.t-7 {
+		background: url('../img/mm-t-7.png') center no-repeat;
+		background-size: 24px;
+	}
+
+	
+
+}
+.tutor__details__optionlabel {
+	margin-top: 8px;
+	display: inline-block;
+}
+
+.tutor__details__optioncontainer {
+	position: relative;
+	width: 100%;
+	&::after {
+		content: '';
+		width: 0; 
+	  	height: 0; 
+	  	border-left: 4px solid transparent;
+	  	border-right: 4px solid transparent;
+	  	border-top: 4px solid #fff;
+	  	position: absolute;
+	  	top:18px;
+	  	right:5px;
+	  	z-index: 1000;
+	}
+}
+
+.tutor__details__option {
+		background: none;
+		border: none;
+		color: #fff;
+		outline: 0;
+		box-shadow: none;
+		text-align: right;
+		margin-bottom: 0;
+		&:focus {
+			background: none;
+		border: none;
+		color: #fff;
+		outline: 0;
+		box-shadow: none;
+		}
+
+		
+	}
+
+
+.details__cta {
+
+	position: fixed;
+	bottom:0;
+	left: 0;
+	width: 100%;
+
+	.details__cta__options {
+		background: #87B7AE;
+		width: 100%;
+		color: #fff;
+		padding: 20px 0;
+	}
+	.details__cta__submit {
+		background: #DC1D1D;
+		color: #fff;
+		width: 100%;
+		padding: 20px 0;
+		a {
+			color: #fff !important;
+		}
+	}
+}

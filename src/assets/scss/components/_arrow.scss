@@ -1,0 +1,25 @@
+.arrow {
+	&__right 
+	{
+		&--red {
+			display: inline-block;
+			width: 36px;
+			height: 36px;
+			background: url('../img/mm-arrow-right--red.png') center no-repeat;
+			background-size: cover;
+			vertical-align: text-bottom;
+		}
+	}
+
+	&__left 
+	{
+		&--red {
+			display: inline-block;
+			width: 36px;
+			height: 36px;
+			background: url('../img/mm-arrow-left--red.png') center no-repeat;
+			background-size: cover;
+			vertical-align: text-bottom;
+		}
+	}
+}

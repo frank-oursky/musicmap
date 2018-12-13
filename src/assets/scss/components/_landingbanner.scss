@@ -1,0 +1,52 @@
+.landing__banner {
+
+	padding-top: 120px;
+
+	&__img {
+		position: relative;
+	}
+	&__cta {
+		position: absolute;
+		bottom: -30px;
+		right: 0;
+		background-color: #D0021B;
+		background-color: rgba(208,2,27,0.85);
+		width: 50%;
+		height: auto;
+		padding: 30px;
+		background-image: url("../img/mm-landing-banner-arrow.png");
+		background-position: center right 20px;
+		background-repeat: no-repeat;
+
+	}
+	&__tag1 {
+		font-size: 18px;
+		color: #fff;
+		display: block;
+	}
+	&__tag2 {
+		font-size: 24px;
+		color: #fff;
+		display: block;
+	}
+
+	 @include breakpoint(small only) { 
+	 	&__cta {
+	 		background-size: 18px;
+	 		padding: 20px;
+	 	}
+
+	 	&__tag1 {
+		font-size: 14px;
+		color: #fff;
+		display: block;
+		}
+		&__tag2 {
+			font-size: 18px;
+			color: #fff;
+			display: block;
+		}
+	 }
+
+}
+

@@ -1,0 +1,31 @@
+.landing__inst {
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+
+
+	&__item {
+		text-align: center;
+		padding: 10px 0;
+		
+	}
+
+	&__circle {
+		background-color: #f3f3f3;
+		border-radius: 100px;
+		display: inline-block;
+		padding: 0;
+
+	}
+
+	&__icon {
+		display: block;
+		margin: 0 auto;
+	}
+
+	&__itemname {
+		display: block;
+
+	}
+}

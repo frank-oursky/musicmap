@@ -1,0 +1,30 @@
+.landing__tutor__container {
+
+	margin: 30px 0 ;
+	display: block;
+
+	width: 100%;
+	overflow-x: scroll;
+
+	.landing__tutor__list {
+		width: 180vw;
+
+		.tutor__profile--small {
+			width: 90vw;
+			max-width: 420px;
+			float: left;
+			margin-right: 20px;
+		}
+	}
+
+	@include breakpoint(small only) { 
+		.landing__tutor__list {
+			width: 200vw;
+			.tutor__profile--small {
+				width: 80w;
+				margin-right: 10px;
+			}
+		}
+	}
+
+}	

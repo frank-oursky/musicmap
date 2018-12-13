@@ -1,0 +1,38 @@
+.record {
+	&__notice {
+		position: fixed;
+		z-index: 99;
+		top:60px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		background-color: #87B7AE;
+		color: #fff;
+		padding: 5px 0;
+	}
+}
+
+.record__list {
+	min-height: 80vh;
+	padding-top: 100px;
+
+	.tutor__profile--small {
+		width: 100%;
+		margin: 20px 0;
+		display: block;
+		color: #333;
+	}
+}
+
+.record__details {
+	padding: 15px;
+}
+
+.record__status {
+	color: #87B7AE;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 5px 0;
+}

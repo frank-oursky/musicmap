@@ -1,0 +1,84 @@
+.sidemenu {
+
+	&__container {
+		position: fixed;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		z-index: 999;
+	}
+
+	&__wrap {
+		position: relative;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		z-index: 999;
+	}
+
+	&__fade {
+		background: rgba(0,0,0,0.5);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: 1000;
+	}
+
+	width: 250px;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 1001;
+	background: #fff;
+	padding: 20px;
+
+	.close {
+		width: 24px;
+		height: 24px;
+	}
+
+	&__nav {
+		list-style: none;
+		margin: 20px 0 0 0;
+		padding: 0;
+
+		a {
+			color: #4a4a4a;
+			margin-bottom: 15px;
+			display: inline-block;
+			font-size: 21px;
+		}
+	}
+
+	&__acc {
+		position: absolute;
+		left: 0;
+		bottom:0;
+		width: 100%;
+		z-index: 1002;
+		padding: 10px 20px;
+	}
+
+	&__user {
+		margin-bottom: 10px;
+	}
+
+	&__logout {
+		margin-bottom: 10px;
+	}
+
+	&__usericon {
+		display: inline-block;
+		width: 15px;
+		height: 15px;
+		background: url('../img/mm-icon-profile.png') center no-repeat;
+		background-size: 15px;
+		margin-right: 5px;
+		vertical-align: middle;
+	}
+}
